@@ -11,6 +11,7 @@ import (
 	"github.com/golang-migrate/migrate/v4/database/mysql"
 	_ "github.com/golang-migrate/migrate/v4/database/mysql"
 	_ "github.com/golang-migrate/migrate/v4/source/file"
+	"github.com/spf13/viper"
 )
 
 // RunMigration runs the schema migrations
@@ -22,7 +23,7 @@ func RunMigration(config *string) {
 
 	println("Running Migrations...")
 
-	db, _ := sql.Open("mysql", "root:Root_User_01@tcp(localhost:3306)/slashRTC")
+	db, _ := sql.Open("mysql", viper.GetString("DATABASE_URL"))
 	driver, _ := mysql.WithInstance(db, &mysql.Config{})
 	m, err := migrate.NewWithDatabaseInstance(
 		"file://migrations/migrations",

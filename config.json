@@ -14,6 +14,6 @@
     "SCHEME": "",
     "ALLOWED_ORIGIN": "",
     "ENABLE_NEWRELIC_MONITORING": false,
-    "RUN_MIGRATION": true,
+    "RUN_MIGRATION": false,
     "DATABASE_URL": "root:Root_User_01@tcp(localhost:3306)/slashRTC"
 }
