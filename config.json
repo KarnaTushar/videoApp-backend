@@ -1,0 +1,19 @@
+{
+    "APP_ID": "427572bf78f044cdadcc21cb768cd051",
+    "APP_CERTIFICATE": "f9fdf67499da4794aca078f2b9728b51",
+    "CUSTOMER_ID": "2ef38292ce204121a8882dbdc4119b28",
+    "CUSTOMER_CERTIFICATE": "797aac60df4c487bafabb694c6f55d9f",
+    "BUCKET_NAME": "",
+    "BUCKET_ACCESS_KEY": "",
+    "BUCKET_ACCESS_SECRET": "",
+    "CLIENT_ID": "",
+    "CLIENT_SECRET": "",
+    "PSTN_USERNAME": "",
+    "PSTN_PASSWORD": "",
+    "PSTN_NUMBER": "",
+    "SCHEME": "",
+    "ALLOWED_ORIGIN": "",
+    "ENABLE_NEWRELIC_MONITORING": false,
+    "RUN_MIGRATION": true,
+    "DATABASE_URL": "root:Root_User_01@tcp(localhost:3306)/slashRTC"
+}
